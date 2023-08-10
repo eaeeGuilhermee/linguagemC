@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main (){
+int time = 20;
+(time<12)? printf("bom dia"):
+  printf("boa tarde");
+
+return 0;
+}

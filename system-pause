@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    char produto [50];
+    printf("informe seu produto: ");
+    scanf("%s", &produto);
+    system ("cls"); // windows
+    printf("seu produto é: %s", produto);
+    system("pause");
+}

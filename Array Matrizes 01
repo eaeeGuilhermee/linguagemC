@@ -1,0 +1,11 @@
+#include <stdio.h>
+    int main(){
+        //declarar um array 4 inteiros
+    int num[4]; //define o tamanho
+    //adicionar elementos
+    num[0]=10;
+    num[1]=25;
+    num[2]=30;
+    num[3]=100;
+        printf("%d\n", num[3]);
+    }
